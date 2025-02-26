@@ -1,7 +1,7 @@
 (()=>
     {  
         const { warn, log, debug } = console;
-        
+        const hostUrl = "https://sayedfullah.github.io/pronto/js";
         var doc, svgString;
         const parser = new DOMParser();
     
@@ -20,7 +20,7 @@
         let init =()=>
         {
             
-            fetch("/svg/".concat(document.title),{method:"POST",contentType:"application/x-www-form-urlencoded"})
+            fetch(`${hostUrl}"/svg/"`.concat("SKETCH.svg"),{method:"POST",contentType:"application/x-www-form-urlencoded"})
             .then(resp=> resp.json())
             .then(data=> 
             {

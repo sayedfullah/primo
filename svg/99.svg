@@ -1,0 +1,17 @@
+<svg
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:svg="http://www.w3.org/2000/svg"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:mingh="http://www.minghworld.com"
+	width="300px"
+	height="300px" >
+	
+	 <g>	
+		<path style="fill:none;stroke:#000;stroke-width:0.25px" class="shape"
+			d="M 149.29,120.78 C 137.86,120.94 126.94,128.46 122.85,139.16 118.45,149.84 121.22,162.98 129.57,170.97 137.77,179.11 150.94,181.53 161.51,176.88 172.1,172.52 179.35,161.43 179.22,150.0 179.23,145.94 178.37,141.9 176.72,138.19 172.18,127.55 160.84,120.36 149.29,120.78 z M 150.01,124.31 C 151.64,124.31 153.01,125.68 153.01,127.31 153.01,128.99 151.64,130.31 150.01,130.31 148.33,130.31 147.01,128.99 147.01,127.31 147.01,125.68 148.33,124.31 150.01,124.31 z" />
+						
+		<!-- Prism Reference -->
+		<cam mingh:cam="--verb EditSelectAll --verb ZoomSelection --verb FileSave"/> 
+	 </g>
+
+</svg>
