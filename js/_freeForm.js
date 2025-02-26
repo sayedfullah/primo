@@ -20,12 +20,14 @@
         let init =()=>
         {
             
-            fetch(`${hostUrl}"/svg/"`.concat("SKETCH.svg"),{method:"POST",contentType:"application/x-www-form-urlencoded"})
-            .then(resp=> resp.json())
+            // fetch(`${hostUrl}"/svg/"`.concat("sketch.svg"),{method:"POST",contentType:"application/x-www-form-urlencoded"})
+            fetch(`${hostUrl}"/svg/"`.concat("sketch.svg"))
+            .then(resp=> resp.text())
             .then(data=> 
             {
                 
-                doc = parser.parseFromString(data.obverse,"image/svg+xml");
+                // doc = parser.parseFromString(data.obverse,"image/svg+xml");
+                doc = parser.parseFromString(data,"image/svg+xml");
                 shapes = doc.getElementsByTagName("path");
                 shapeIndexSize = shapes.length;
                 cam = doc.getElementsByTagName("cam")[0];
