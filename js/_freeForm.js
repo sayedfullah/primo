@@ -1,7 +1,7 @@
 (()=>
     {  
         const { warn, log, debug } = console;
-        const hostUrl = "https://sayedfullah.github.io/pronto/js";
+        const hostUrl = "https://sayedfullah.github.io/pronto/";
         var doc, svgString;
         const parser = new DOMParser();
     
