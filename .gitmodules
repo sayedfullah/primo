@@ -1,0 +1,3 @@
+[submodule "csprism"]
+    path = csprism
+    url = https://github.com/sayedfullah/csprism.git
